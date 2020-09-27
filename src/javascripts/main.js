@@ -1,8 +1,13 @@
+import navbar from './components/navbar/navbar';
+import bio from './components/bio/bio';
+import footer from './components/footer/footer';
+
 import '../styles/main.scss';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  navbar.navbar();
+  bio.bio();
+  footer.footer();
 };
 
 init();
