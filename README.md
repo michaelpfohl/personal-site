@@ -8,5 +8,5 @@ This is my personal bio site that was built to display my abilites as a develope
 - Music page with album cover and information for each album I have released.
 - Podcast page with details for the podcast I am currently cohosting. 
 
-![Main Navigation](/project-images/main-nav.png)
+![Main Navigation](/src/assets/images/project/main-nav.png)
 (I am particularly proud of how the styling for the main navigation turned out.)
