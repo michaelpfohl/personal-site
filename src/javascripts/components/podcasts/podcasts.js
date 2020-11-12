@@ -1,8 +1,11 @@
+import KNNpic from '../../../assets/images/podcast/KNN-logo.jpg';
+import LFTHpic from '../../../assets/images/podcast/LFTH_NS_LOGO.jpg';
+
 const podcasts = () => {
   $('#app').html(`
   <div class="podcast--main">
     <div class="podcast--container">
-        <img class="podcast--image" src="src/assets/images/podcast/KNN-logo.jpg" alt="Kid Nation Nation">
+        <img class="podcast--image" src="${KNNpic}" alt="Kid Nation Nation">
         <div class="podcast--details">
             <h1 class="podcast--details-header">·Kid Nation Nation</h1>
             <div class="podcast--details-bar"></div>
@@ -25,7 +28,7 @@ const podcasts = () => {
   </div>
   <div class="podcast--main">
     <div class="podcast--container">
-        <img class="podcast--image" src="src/assets/images/podcast/LFTH_NS_LOGO.jpg" alt="Live Free, Twi Hard">
+        <img class="podcast--image" src="${LFTHpic}" alt="Live Free, Twi Hard">
         <div class="podcast--details">
             <h1 class="podcast--details-header">·Live Free, Twi Hard</h1>
             <div class="podcast--details-bar"></div>
