@@ -1,5 +1,6 @@
 import bio from '../bio/bio';
 import projects from '../projects/projects';
+import music from '../music/music';
 
 const navbar = () => {
   $('#nav').html(`
@@ -26,6 +27,7 @@ const navbar = () => {
   $('#nav--bio').on('click', () => bio.bio());
   $('#nav--technologies').on('click', () => bio.bio());
   $('#nav--projects').on('click', () => projects.projects());
+  $('#nav--music').on('click', () => music.musicCards());
 };
 
 export default { navbar };
