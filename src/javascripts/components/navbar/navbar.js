@@ -1,3 +1,6 @@
+import bio from '../bio/bio';
+import projects from '../projects/projects';
+
 const navbar = () => {
   $('#nav').html(`
     <nav>
@@ -19,6 +22,10 @@ const navbar = () => {
     </ul>
   </nav>
     `);
+
+  $('#nav--bio').on('click', () => bio.bio());
+  $('#nav--technologies').on('click', () => bio.bio());
+  $('#nav--projects').on('click', () => projects.projects());
 };
 
 export default { navbar };
