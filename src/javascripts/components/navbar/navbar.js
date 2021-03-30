@@ -1,3 +1,8 @@
+import bio from '../bio/bio';
+import projects from '../projects/projects';
+import music from '../music/music';
+import podcasts from '../podcasts/podcasts';
+
 const navbar = () => {
   $('#nav').html(`
     <nav>
@@ -19,6 +24,12 @@ const navbar = () => {
     </ul>
   </nav>
     `);
+
+  $('#nav--bio').on('click', () => bio.bio());
+  $('#nav--technologies').on('click', () => bio.bio());
+  $('#nav--projects').on('click', () => projects.projects());
+  $('#nav--music').on('click', () => music.musicCards());
+  $('#nav--podcast').on('click', () => podcasts.podcasts());
 };
 
 export default { navbar };
