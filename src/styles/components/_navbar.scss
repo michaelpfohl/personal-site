@@ -2,15 +2,14 @@
     background-image: url(../assets/images/main/main-background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 500px;
+    height: 1100px;
     margin: 0;
 }
 
 .name--header {
     margin: 0;
     text-align: center;
-    padding-top: 120px;
-    
+    padding-top: 120px;   
 }
 
 .name--header a {
@@ -47,4 +46,22 @@
 
 .nav--links a:hover {
     color: #ffffff;
+}
+
+.redirect-container {
+    display: flex;
+    justify-content: center;
+}
+
+.redirect-text {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #161616;
+    border-radius: 40px;
+    width: 45%;
+}
+
+.redirect-link {
+    color: #0d449b;
 }
